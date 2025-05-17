@@ -362,7 +362,11 @@ section {
     }
     
     .b {
-        padding: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10vh 0;
         & th {
             & .title {
                 display: flex;
