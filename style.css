@@ -67,14 +67,20 @@ section {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 100px;
-        & img { 
-            opacity: 1 !important;
-            width: 70vw !important;
+        gap: 10vh;
+        & #megs-dueling_logo {
+            display: flex;
+            opacity: 1;
+            width: 80vw;
+        }
+        & #megs-dueling_logo_phone { 
+            display: none;
+            opacity: 1;
+            width: 70vw;
         }
         & .buts {
             display: flex;
-            gap: 10vw;
+            gap: 6vh;
             & .but {
                 position: relative;
                 transition: all 0.2s ease-in-out;
@@ -336,12 +342,15 @@ section {
 @media only screen and (width < 750px) {
     .a {
         & .inte {
-            & img { 
-                width: 90vw !important;
+            & #megs-dueling_logo {
+                display: none;
+            }
+            & #megs-dueling_logo_phone { 
+                display: flex;
             }
             & .buts {
                 flex-direction: column;
-                gap: 6vw;
+                gap: 3vh;
             }
             & .scrollindic {
                 & .txt {
