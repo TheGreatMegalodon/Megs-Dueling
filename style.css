@@ -76,7 +76,7 @@ section {
         & #megs-dueling_logo_phone { 
             display: none;
             opacity: 1;
-            width: 70vw;
+            width: 80vw;
         }
         & .buts {
             display: flex;
