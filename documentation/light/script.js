@@ -26,7 +26,7 @@ function downloadCode(url) {
     .then(text => {
       var downloadFile = document.createElement('a');
       downloadFile.setAttribute('href', "data:text/plain;charset=utf-8," + encodeURIComponent(text));
-      downloadFile.setAttribute('download', "Megs-Dueling_FULL_1.4.2.txt");
+      downloadFile.setAttribute('download', "Megs-Dueling_LIGHT_1.2.1.txt");
       downloadFile.click();
     })
     .catch(error => {
